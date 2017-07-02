@@ -1,0 +1,68 @@
+.main_header_section{
+    width: 100%;
+    position: relative;
+    height: 78px;
+    /*border: 2px solid lightgrey;*/
+    z-index: 20;
+}
+
+#header_name{
+    position: relative;
+    padding-top: 315px;
+    /* left: 27%; */
+    /* border: 1px solid lime; */
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 28px;
+}
+#header_name h1{
+    /*font-family: 'Pacifico', cursive; */
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Meddon', cursive;*/
+    /*font-family: 'La Belle Aurore', cursive;*/
+    font-family: 'Rock Salt', cursive;
+    font-size:45px;  
+}
+
+#header_name h2{
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Biryani', sans-serif;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    font-family: 'Antic', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#header_nav{
+    width: 335px;
+    position: absolute;
+    right: 7%;
+    top: 24px;
+    /* border: 1px solid lightpink; */
+    font-size: 18px;
+    color: white;
+    /* background-color: white; */
+    font-weight: 100;
+}
+#header_nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+}
+
+#header_nav ul li{
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Biryani', sans-serif;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    font-family: 'Antic', sans-serif;
+}
+
+#header_nav ul li:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
