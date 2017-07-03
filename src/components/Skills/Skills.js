@@ -11,7 +11,7 @@ export default class SectionOne extends Component{
             <section className="main_skills_section">
                 <div id="skills_title">
                     <h1>Skills</h1>
-                    <p>My current skillset</p>
+                    <p>My current skill set</p>
                 </div>
                 <div id="skills_holder">
                     <div id="html">
