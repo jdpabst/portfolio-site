@@ -1,0 +1,129 @@
+.main_skills_section{
+    width: 100%;
+    position: relative;
+    /*height: 700px;*/
+    /*border: 2px solid hotpink;*/
+}
+
+#skills_title{
+    height:150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    /*border: 2px dashed lightcoral;*/
+    color: #543441;
+    padding-top: 75px;
+    line-height: 40px;
+}
+#skills_title h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+#skills_title p{
+    font-family: 'Antic', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#skills_holder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*border: 1px solid lime;*/
+    width: 80%;
+    /*height: 650px;*/
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#skills_holder div{
+    /*border: 2px solid teal;*/
+    margin: 20px 20px 20px 20px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+#html p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 27px);
+    color: #543441;
+}
+#css p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 27px);
+    color: #543441;
+}
+#javascript p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 37px);
+    color: #543441;
+}
+#angular p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 27px);
+    color: #543441;
+}
+#react p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 22px);
+    color: #543441;
+}
+#node p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 30px);
+    color: #543441;
+}
+#express p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 27px);
+    color: #543441;
+}
+#sql p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 40px);
+    color: #543441;
+}
+#jquery p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 30px);
+    color: #543441;
+}
+#git p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 12px);
+    color: #543441;
+}
+#git_hub p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 27px);
+    color: #543441;
+}
+#sass p{
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 71px);
+    color: #543441;
+}
+div i{
+    font-size: 100px;
+    color: #543441;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 50px);
+}
