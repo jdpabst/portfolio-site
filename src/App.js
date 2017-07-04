@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Skills from './components/Skills/Skills'
 import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
-
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 class App extends Component {
@@ -18,6 +18,8 @@ class App extends Component {
       <Skills />
       <AboutMe />
       <Contact />
+      <Footer/>
+      
       </div>
     );
   }

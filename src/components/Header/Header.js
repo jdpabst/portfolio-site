@@ -13,11 +13,15 @@ export default class Header extends Component{
                     <h1>Hello, I'm Jessica Pabst</h1>
                     <h2>Full-Stack Web Developer</h2>
                 </div>
+                <div id="signature">
+                    JP
+                </div>
                 <div id="header_nav">
                     <ul>
                         <li>Portfolio</li>
                         <li>Skills</li>
                         <li>About</li>
+                        <li>Blog</li>
                         <li>Contact</li>
                     </ul>
                 </div>
