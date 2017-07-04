@@ -8,7 +8,7 @@ export default class SectionOne extends Component{
 
     render(){
         return(
-            <section className="main_skills_section">
+            <section id="skills" className="main_skills_section">
                 <div id="skills_title">
                     <h1>Skills</h1>
                     <p>My current skill set</p>

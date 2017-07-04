@@ -10,7 +10,7 @@ export default class SectionOne extends Component{
 
     render(){
         return(
-            <section className="main_portfolio_section">
+            <section id="portfolio" className="main_portfolio_section">
                 <div id="portfolio_title">
                     <h1>Portfolio</h1>
                     <p>Recent Projects</p>

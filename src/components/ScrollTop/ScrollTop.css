@@ -1,0 +1,31 @@
+.main_scroll_section{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    display: none;
+}
+#scroll_holder{
+    height: 50px;
+    width: 50px;
+    background: #543441;
+    position: relative;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+#scroll_holder img{
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    filter: brightness(0) invert(1);
+}
+
+#scroll_holder:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s;
+}

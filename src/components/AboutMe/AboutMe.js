@@ -7,7 +7,7 @@ export default class SectionOne extends Component{
 
     render(){
         return(
-            <section className="main_about_section">
+            <section id="about" className="main_about_section">
                 <div id="about_title">
                     <h1>A Little About Me</h1>
                     <p>Checkout my blog!</p>

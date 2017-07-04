@@ -35,7 +35,9 @@ export default class SectionOne extends Component{
 
     render(){
         return(
-            <section className="main_contact_section">
+            <section id="contact" className="main_contact_section">
+                <div id="background">
+                </div>
                 <div id="contact_title">
                     <h1>Say Hello</h1>
                     <p>Feel free to reach out with any questions or opportunities!</p>
