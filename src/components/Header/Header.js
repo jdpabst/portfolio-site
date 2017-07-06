@@ -7,11 +7,20 @@ export default class Header extends Component{
         super(props);
 
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleMobileMenu = this.handleMobileMenu.bind(this);
+        this.handleMobileMenuClose = this.handleMobileMenuClose.bind(this);
     }
 handleScroll(id){
     document.getElementById(id).scrollIntoView({block: "start", behavior: "smooth"})
 }
 
+handleMobileMenu(id){
+    document.getElementById(id).style.display = 'block'
+}
+
+handleMobileMenuClose(id){
+    document.getElementById(id).style.display = 'none'
+}
 
     render(){
         return(
@@ -31,6 +40,22 @@ handleScroll(id){
                         <li>Blog</li>
                         <li onClick={ ()=> {this.handleScroll('contact')} }>Contact</li>
                     </ul>
+                </div>
+
+                <div id="top" className="mobile_header_nav" onClick={ ()=> {this.handleMobileMenu('drop_menu')} }>
+                    <div id="hamburger">
+                        <div id="bar"></div>
+                        <div id="bar"></div>
+                        <div id="bar"></div>
+                    </div>
+                </div>
+                <div id="drop_menu">
+                    <p>Portfolio</p>
+                    <p>Skills</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                    <div id="exit_mobile_menu" onClick={ ()=> { this.handleMobileMenuClose("drop_menu") }}>X</div>
                 </div>
             </section>
         )

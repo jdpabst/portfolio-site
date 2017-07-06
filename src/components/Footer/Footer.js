@@ -15,15 +15,15 @@ export default class Footer extends Component{
                     &#169; jdhpabst.com 2017
                 </div>
                 <div id="socials">
-                    <div id="github">
+                    <a href="https://github.com/jdpabst" target="_blank"><div id="github">
                         <i className="devicon-github-plain"></i>
-                    </div>
-                    <div id="facebook">
+                    </div></a>
+                    <a href="https://www.facebook.com/jessie.hollingshead4" target="_blank"><div id="facebook">
                         <img src={facebook}/>
-                    </div>
-                    <div id="linked">
+                    </div></a>
+                    <a href="https://www.linkedin.com/in/jessica-pabst/" target="_blank"><div id="linked">
                         <img src={linked}/>
-                    </div>
+                    </div></a>
                 </div>
                 <div id="thanks">
                     Thank you for visiting my site!
