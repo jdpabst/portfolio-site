@@ -6,6 +6,8 @@
     bottom: 60px;
     right: 10px;
     display: none;
+    z-index: 500;
+    overflow: hidden;
 }
 #scroll_holder{
     height: 50px;

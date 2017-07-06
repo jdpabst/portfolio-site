@@ -5,6 +5,7 @@
     /*background: #F0E6EA;*/
     height: 650px;
     position: relative;
+    overflow: hidden;
 }
 #portfolio_title{
     height: 115px;
@@ -227,6 +228,25 @@
     font-size: 17px;
     font-weight: 100;
 }
+
+/*@media(max-width: 350px){
+    #mobile_projects_holder{
+        width: 250px;
+        height: 251px;
+    }
+    .group_proj{
+        width: 250px;
+        height: 251px;
+    }
+    .personal_proj{
+        width: 250px;
+        height: 251px;
+    }
+    .no_server{
+        width: 250px;
+        height: 251px
+    }
+}*/
 
 /*#personal_holder{
     height: 290px;

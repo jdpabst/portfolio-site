@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     padding: 30px 40px 0px 40px;
+    overflow: hidden;
 }
 
 .main_footer_section div{
@@ -93,4 +94,24 @@
 #socials #linked img{
     height: 50px;
     filter: brightness(0) invert(1);
+}
+
+@media(max-width: 852px){
+    .main_footer_section{
+        height: 140px;
+        overflow: hidden;
+    }
+    .main_footer_section #copy_right{
+        position: absolute;
+        top: 5px;
+        left: calc(50% - 96px)
+    }
+    .main_footer_section #thanks{
+        position: absolute;
+        bottom: 10px;
+        left: calc(50% - 122px)
+    }
+    #socials{
+        margin-top: 20px;
+    }
 }
