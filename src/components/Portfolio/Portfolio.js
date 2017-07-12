@@ -48,6 +48,9 @@ export default class SectionOne extends Component{
                                         <p>Node</p>
                                         <p>PostgresSQL</p>
                                     </div>
+                                    <div className="personal_hover_links">
+                                        <h2>Check it out</h2>
+                                    </div>
                                 </div>
                             </div>
                             <div className="group_proj">
@@ -61,6 +64,9 @@ export default class SectionOne extends Component{
                                         <p>Node</p>
                                         <p>PostgresSQL</p>
                                     </div>
+                                    <div className="group_hover_links">
+                                        <h2>Check it out</h2>
+                                    </div>
                                 </div>
                             </div>
                             <div className="no_server">
@@ -71,6 +77,9 @@ export default class SectionOne extends Component{
                                         <h1>Bucket List</h1>
                                         <p>No-Server App</p>
                                         <p>Angular</p>
+                                    </div>
+                                    <div className="no_server_hover_links">
+                                        <h2>Check it out</h2>
                                     </div>
                                 </div>
                             </div>
@@ -90,6 +99,9 @@ export default class SectionOne extends Component{
                                         <p>Node</p>
                                         <p>PostgresSQL</p>
                                     </div>
+                                    <div className="personal_hover_links">
+                                        <h2>Check it out</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -105,6 +117,9 @@ export default class SectionOne extends Component{
                                         <p>Node</p>
                                         <p>PostgresSQL</p>
                                     </div>
+                                    <div className="group_hover_links">
+                                        <h2>Check it out</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -117,6 +132,9 @@ export default class SectionOne extends Component{
                                         <h1>Bucket List</h1>
                                         <p>No-Server App</p>
                                         <p>Angular</p>
+                                    </div>
+                                    <div className="no_server_hover_links">
+                                        <h2>Check it out</h2>
                                     </div>
                                 </div>
                             </div>

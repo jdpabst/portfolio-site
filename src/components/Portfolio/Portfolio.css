@@ -110,6 +110,34 @@
     font-weight: 100;
 }
 
+.personal_hover_links{
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 100px);
+    margin-right: auto;
+    color: white;
+    height: 75px;
+    /* border: 2px solid white; */
+    width: 200px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 100;
+}
+.personal_hover_links:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
 .slick-list{
     padding: 0 !important;
     }
@@ -176,6 +204,29 @@
     font-size: 17px;
     font-weight: 100;
 }
+
+.group_hover_links{
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 100px);
+    margin-right: auto;
+    color: white;
+    height: 75px;
+    /* border: 2px solid white; */
+    width: 200px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.group_hover_links:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
 .no_server{
     background: url('./../../img/no-server.png') center no-repeat;
     background-size: cover;
@@ -227,6 +278,29 @@
     font-family: 'Antic', sans-serif;
     font-size: 17px;
     font-weight: 100;
+}
+
+.no_server_hover_links{
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 100px);
+    margin-right: auto;
+    color: white;
+    height: 75px;
+    /* border: 2px solid white; */
+    width: 200px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.no_server_hover_links:hover{
+    opacity: 1;
+    text-decoration: underline;
 }
 
 /*@media(max-width: 350px){
