@@ -25,10 +25,10 @@
     font-weight: 100;
     color: #543441;
 }
-#about_title p:hover{
+/* #about_title p:hover{
     text-decoration: underline;
     cursor: pointer;
-}
+} */
 .pic_desc_holder{
     /*border: 2px solid lime;*/
     height: 335px;

@@ -10,7 +10,7 @@ export default class SectionOne extends Component{
             <section id="about" className="main_about_section">
                 <div id="about_title">
                     <h1>A Little About Me</h1>
-                    <p>Checkout my blog!</p>
+                    <p>Keep an eye out for my new blog!</p>
                 </div>
                 <div className="pic_desc_holder">
                     <div id="about_pic"></div>

@@ -15,13 +15,13 @@ class App extends Component {
     return (
       <div>
       <Header />
+      <Scroll />
       <SectionOne />
       <Portfolio />
       <Skills />
       <AboutMe />
       <Contact />
       <Footer/>
-      <Scroll />
       </div>
     );
   }

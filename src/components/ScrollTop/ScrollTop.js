@@ -32,11 +32,35 @@ handleScroll(id){
 
     render(){
         return(
-            <section id="scroll_top" className="main_scroll_section">
-                <div id="scroll_holder" onClick={ ()=> {this.handleScroll('top')} }>
-                    <img src={ scroll }/>
+            <section id="scroll_top" className="main_sticky_header_section">
+                <div id="sticky_signature" onClick={ ()=> {this.handleScroll('top')} }>
+                    JP
                 </div>
-                
+                <div id="sticky_header_nav">
+                    <ul>
+                        <li onClick={ ()=> {this.handleScroll('portfolio')} }>Portfolio</li>
+                        <li onClick={ ()=> {this.handleScroll('skills')} }>Skills</li>
+                        <li onClick={ ()=> {this.handleScroll('about')} }>About</li>
+                        <li>Blog</li>
+                        <li onClick={ ()=> {this.handleScroll('contact')} }>Contact</li>
+                    </ul>
+                </div>
+
+                <div id="scroll_top" className="sticky_mobile_header_nav" onClick={ ()=> {this.handleMobileMenu('drop_menu')} }>
+                    <div id="hamburger">
+                        <div id="bar"></div>
+                        <div id="bar"></div>
+                        <div id="bar"></div>
+                    </div>
+                </div>
+                <div id="sticky_drop_menu">
+                    <p>Portfolio</p>
+                    <p>Skills</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                    <div id="sticky_exit_mobile_menu" onClick={ ()=> { this.handleMobileMenuClose("drop_menu") }}>X</div>
+                </div>
             </section>
         )
     }
