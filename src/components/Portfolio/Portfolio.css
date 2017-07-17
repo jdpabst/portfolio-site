@@ -110,7 +110,7 @@
     font-weight: 100;
 }
 
-.personal_hover_links{
+.personal_hover_links a{
     position: absolute;
     bottom: 0px;
     left: calc(50% - 100px);
@@ -133,7 +133,7 @@ h2{
     font-size: 16px;
     font-weight: 100;
 }
-.personal_hover_links:hover{
+.personal_hover_links a:hover{
     opacity: 1;
     text-decoration: underline;
 }
@@ -205,7 +205,7 @@ h2{
     font-weight: 100;
 }
 
-.group_hover_links{
+.group_hover_links a{
     position: absolute;
     bottom: 0px;
     left: calc(50% - 100px);
@@ -223,7 +223,7 @@ h2{
     font-size: 12px;
     opacity: 0.6;
 }
-.group_hover_links:hover{
+.group_hover_links a:hover{
     opacity: 1;
     text-decoration: underline;
 }
@@ -280,7 +280,7 @@ h2{
     font-weight: 100;
 }
 
-.no_server_hover_links{
+.no_server_hover_links a{
     position: absolute;
     bottom: 0px;
     left: calc(50% - 100px);
@@ -298,7 +298,7 @@ h2{
     font-size: 12px;
     opacity: 0.6;
 }
-.no_server_hover_links:hover{
+.no_server_hover_links a:hover{
     opacity: 1;
     text-decoration: underline;
 }

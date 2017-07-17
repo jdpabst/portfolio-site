@@ -49,7 +49,7 @@ export default class SectionOne extends Component{
                                         <p>PostgresSQL</p>
                                     </div>
                                     <div className="personal_hover_links">
-                                        <h2>Check it out</h2>
+                                        <h2><a href="http://jjclone.jdpabst.com" target="_blank">Check it out</a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ export default class SectionOne extends Component{
                                         <p>PostgresSQL</p>
                                     </div>
                                     <div className="group_hover_links">
-                                        <h2>Check it out</h2>
+                                        <h2><a href="http://ytclone.jdpabst.com" target="_blank">Check it out</a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ export default class SectionOne extends Component{
                                         <p>Angular</p>
                                     </div>
                                     <div className="no_server_hover_links">
-                                        <h2>Check it out</h2>
+                                        <h2><a href="https://jdpabst.github.io/#!/" target="_blank">Check it out</a></h2>
                                     </div>
                                 </div>
                             </div>
