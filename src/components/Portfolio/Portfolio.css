@@ -133,7 +133,7 @@
     opacity: 1;
     text-decoration: underline;
 }
-.personal_hover_links h1{
+.personal_hover_links h1 a{
     position: absolute;
     bottom: -25px;
     right: -20px;
@@ -152,7 +152,7 @@
     opacity: 0.6;
     text-decoration: none;
 }
-.personal_hover_links h1:hover{
+.personal_hover_links h1 a:hover{
     opacity: 1;
     text-decoration: underline;
 }
@@ -252,7 +252,7 @@ h2{
     opacity: 1;
     text-decoration: underline;
 }
-.group_hover_links h1{
+.group_hover_links h1 a{
     position: absolute;
     bottom: -25px;
     right: -20px;
@@ -271,7 +271,7 @@ h2{
     opacity: 0.6;
     text-decoration: none;
 }
-.group_hover_links h1:hover{
+.group_hover_links h1 a:hover{
     opacity: 1;
     text-decoration: underline;
 }
@@ -347,7 +347,7 @@ h2{
     opacity: 0.6;
     text-decoration: none;
 }
-.no_server_hover_links h1{
+.no_server_hover_links h1 a{
     position: absolute;
     bottom: -25px;
     right: -20px;
@@ -366,7 +366,7 @@ h2{
     opacity: 0.6;
     text-decoration: none;
 }
-.no_server_hover_links h1:hover{
+.no_server_hover_links h1 a:hover{
     opacity: 1;
     text-decoration: underline;
 }

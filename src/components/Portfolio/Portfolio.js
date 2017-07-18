@@ -49,7 +49,7 @@ export default class SectionOne extends Component{
                                         <p>PostgresSQL</p>
                                     </div>
                                     <div className="personal_hover_links">
-                                        <h1>Walk-Through</h1>
+                                        <h1><a href="https://youtu.be/-BnIAlkpM6E" target="_blank">Walk-Through</a></h1>
                                         <h2><a href="http://jjclone.jdpabst.com" target="_blank">Live Site</a></h2>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@ export default class SectionOne extends Component{
                                         <p>PostgresSQL</p>
                                     </div>
                                     <div className="group_hover_links">
-                                        <h1>Walk-Through</h1>
+                                        <h1><a href="https://youtu.be/3fRNWnwc49o" target="_blank">Walk-Through</a></h1>
                                         <h2><a href="http://ytclone.jdpabst.com" target="_blank">Live Site</a></h2>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ export default class SectionOne extends Component{
                                         <p>Angular</p>
                                     </div>
                                     <div className="no_server_hover_links">
-                                        <h1>Walk-Through</h1>
+                                        <h1><a href="https://youtu.be/ymB0DqQWd2c" target="_blank">Walk-Through</a></h1>
                                         <h2><a href="https://jdpabst.github.io/#!/" target="_blank">Live Site</a></h2>
                                     </div>
                                 </div>
