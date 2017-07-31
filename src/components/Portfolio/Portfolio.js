@@ -12,44 +12,40 @@ export default class SectionOne extends Component{
 
     constructor(props){
         super(props);
-
         this.WidthChange = this.WidthChange.bind(this);
     }
 
     WidthChange(mq) {
+        let settings;
         if(mq.matches){
             this.settings = {
-            dots: true,
-            infinite: true,
-            arrows: false,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            autoplay: true,
-            swipe: true,
-            draggable: true,
-
+                dots: true,
+                infinite: true,
+                arrows: false,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                swipe: true,
+                draggable: true,
             }
         } else {
             this.settings = {
-            dots: true,
-            infinite: true,
-            arrows: false,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            draggable: true,
-        }
-
+                dots: true,
+                infinite: true,
+                arrows: false,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                draggable: true,
+            }
         }
     }
 
 
     render(){
         const mq = window.matchMedia( "(min-width: 960px)" );
-        this.settings;
-
         if (matchMedia) {
             let widthChange = this.WidthChange;
             const mq = window.matchMedia("(min-width: 960px)");
@@ -59,27 +55,26 @@ export default class SectionOne extends Component{
 
         if(mq.matches){
             this.settings = {
-            dots: true,
-            infinite: true,
-            arrows: false,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            autoplay: true,
-            swipe: true,
-            draggable: true,
-
+                dots: true,
+                infinite: true,
+                arrows: false,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                swipe: true,
+                draggable: true,
             }
         } else {
             this.settings = {
-            dots: true,
-            infinite: true,
-            arrows: false,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            draggable: true,
+                dots: true,
+                infinite: true,
+                arrows: false,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                draggable: true,
         }
     }
         return(
