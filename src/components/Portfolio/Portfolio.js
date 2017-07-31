@@ -30,6 +30,16 @@ export default class SectionOne extends Component{
             draggable: true,
 
         }
+        let settings2 = {
+            dots: true,
+            infinite: true,
+            arrows: false,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            draggable: true,
+        }
         return(
             <section id="portfolio" className="main_portfolio_section">
                 <div id="portfolio_title">
@@ -37,6 +47,7 @@ export default class SectionOne extends Component{
                     <p>Recent Projects</p>
                 </div>
                 <div id="projects_holder" className="projects_holder">
+                    <Slider {...settings2}>
                             <div className="personal_proj">
                                 <div className="personal_hover">
                                     <div id="personal_hover_overlay">
@@ -101,8 +112,9 @@ export default class SectionOne extends Component{
                                     </div>
                                 </div>
                             </div>
+                        </Slider>
                 </div>
-
+            
                 <div id="mobile_projects_holder" className="mobile_projects_holder">
                     <Slider {...settings}>
                         <div className="personal_proj_div">

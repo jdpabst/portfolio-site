@@ -31,15 +31,12 @@
 
 #projects_holder{
     height: 305px;
-    width: 950px;
+    width: 900px;
      /*border: 2px solid black; */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     position: absolute;
-    left: calc(50% - 475px);
+    left: calc(50% - 450px);
     top: 235px;
-    
+    display: block;
 }
 
 #mobile_projects_holder{
