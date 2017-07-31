@@ -164,17 +164,7 @@ h2{
     padding: 0 !important;
     }
 
-@media(min-width: 960px){
-    /* #projects_holder{
-        display:none;
-    } */
-    #mobile_projects_holder{
-        width: 900px;
-    }
-    .slick-list{
-        padding: 0 !important;
-    }
-}
+
 .group_proj{
     background: url('./../../img/youtube.png') center no-repeat;
     background-size: cover;
@@ -472,7 +462,34 @@ h2{
     opacity: 1;
     text-decoration: underline;
 }
-
+@media(min-width: 960px){
+    /* #projects_holder{
+        display:none;
+    } */
+    #mobile_projects_holder{
+        width: 900px;
+        left: calc(50% - 450px);
+    }
+    .group_proj{
+        margin-right: 20px;
+        border-left: 8px solid #F6F5F5;
+    }
+    .personal_proj{
+        margin-right: 20px;
+        border-left: 8px solid #F6F5F5;
+    }
+    .no_server{
+        margin-right: 20px;
+        border-left: 8px solid #F6F5F5;
+    }
+    .zodiac{
+        margin-right: 20px;
+        border-left: 8px solid #F6F5F5;
+    }
+    .slick-list{
+        padding: 0 !important;
+    }
+}
 
 /*@media(max-width: 350px){
     #mobile_projects_holder{
