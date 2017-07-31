@@ -28,16 +28,16 @@
     font-size: 18px;
     font-weight: 100;
 }
-
+/* 
 #projects_holder{
     height: 305px;
     width: 900px;
-     /*border: 2px solid black; */
+    border: 2px solid black; 
     position: absolute;
     left: calc(50% - 450px);
     top: 235px;
     display: block;
-}
+} */
 
 #mobile_projects_holder{
     height: 305px;
@@ -49,17 +49,18 @@
     position: absolute;
     left: calc(50% - 150px);
     top: 235px;
-    display: none;
+    display: block;
 }
 
 .slick-list{
-    padding: 0
-}
+        padding: 0 !important;
+    }
 .personal_proj{
     background: url('./../../img/jamba3.png') center no-repeat;
     background-size: cover;
     height: 300px;
     width: 300px;
+    /* border: 2px solid lime; */
     box-shadow: 3px 3px 3px lightgray;
 }
 .personal_hover{
@@ -163,15 +164,15 @@ h2{
     padding: 0 !important;
     }
 
-@media(max-width: 960px){
-    #projects_holder{
+@media(min-width: 960px){
+    /* #projects_holder{
         display:none;
-    }
+    } */
     #mobile_projects_holder{
-        display: block;
+        width: 900px;
     }
     .slick-list{
-    padding: 0 !important;
+        padding: 0 !important;
     }
 }
 .group_proj{
