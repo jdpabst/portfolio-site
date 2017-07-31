@@ -145,6 +145,24 @@ export default class SectionOne extends Component{
                                 </div>
                             </div>
                         </div>
+                        <div className="zodiac_proj_div">
+                            <div className="zodiac">
+                                <div className="zodiac_hover">
+                                    <div id="zodiac_hover_overlay">
+                                    </div>
+                                    <div className="zodiac_hover_words">
+                                        <h1>Empyrean</h1>
+                                        <p>React</p>
+                                        <p>Node</p>
+                                        <p>PostgresSQL</p>
+                                    </div>
+                                    <div className="zodiac_hover_links">
+                                        <h1><a href="" target="_blank">Walk-Through</a></h1>
+                                        <h2><a href="http://empyrean.jdpabst.com/#!/" target="_blank">Live Site</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Slider>
                 </div>
 
