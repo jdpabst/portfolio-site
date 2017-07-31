@@ -375,6 +375,106 @@ h2{
     text-decoration: underline;
 }
 
+.zodiac{
+    background: url('./../../img/no-server.png') center no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.zodiac_hover{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+.zodiac_hover:hover{
+    opacity:1;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+#zodiac_hover_overlay{
+    height: 100%;
+    width: 100%;
+    background: #543441;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.zodiac_hover_words{
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 76px);
+    margin-right: auto;
+    color: white;
+    height: 180px;
+    /* border: 2px solid white; */
+    width: 155px;
+    line-height: 26px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.zodiac_hover_words h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+
+.zodiac_hover_words p{
+    font-family: 'Antic', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.zodiac_hover_links h2 a{
+    position: absolute;
+    bottom: -25px;
+    left: -45px;
+    margin-right: auto;
+    color: white;
+    height: 75px;
+    /* border: 2px solid white; */
+    width: 200px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.zodiac_hover_links h1 a{
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+    margin-right: auto;
+    color: white;
+    height: 75px;
+    /* border: 2px solid white; */
+    width: 200px;
+    line-height: 26px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.zodiac_hover_links h1 a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.zodiac_hover_links h2 a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
 
 /*@media(max-width: 350px){
     #mobile_projects_holder{
