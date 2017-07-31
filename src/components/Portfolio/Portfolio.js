@@ -86,6 +86,21 @@ export default class SectionOne extends Component{
                                     </div>
                                 </div>
                             </div>
+                            <div className="zodiac">
+                                <div className="zodiac_hover">
+                                    <div id="zodiac_hover_overlay">
+                                    </div>
+                                    <div className="zodiac_hover_words">
+                                        <h1>Bucket List</h1>
+                                        <p>No-Server App</p>
+                                        <p>Angular</p>
+                                    </div>
+                                    <div className="zodiac_hover_links">
+                                        <h1><a href="" target="_blank">Walk-Through</a></h1>
+                                        <h2><a href="http://empyrean.jdpabst.com/#!/" target="_blank">Live Site</a></h2>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
 
                 <div id="mobile_projects_holder" className="mobile_projects_holder">
