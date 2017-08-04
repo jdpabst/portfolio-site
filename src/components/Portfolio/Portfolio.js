@@ -227,6 +227,24 @@ export default class SectionOne extends Component{
                                 </div>
                             </div>
                         </div>
+                        <div className="todo_proj_div">
+                            <div className="todo">
+                                <div className="todo_hover">
+                                    <div id="todo_hover_overlay">
+                                    </div>
+                                    <div className="todo_hover_words">
+                                        <h1>Empyrean</h1>
+                                        <p>React</p>
+                                        <p>Node</p>
+                                        <p>PostgresSQL</p>
+                                    </div>
+                                    <div className="todo_hover_links">
+                                        <h1><a href="" target="_blank">Walk-Through</a></h1>
+                                        <h2><a href="http://todo.jdpabst.com/#!/" target="_blank">Live Site</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Slider>
                 </div>
 
