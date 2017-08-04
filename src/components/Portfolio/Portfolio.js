@@ -164,7 +164,7 @@ export default class SectionOne extends Component{
                                     <div id="todo_hover_overlay">
                                     </div>
                                     <div className="todo_hover_words">
-                                        <h1>Empyrean</h1>
+                                        <h1>KeepIt</h1>
                                         <p>React</p>
                                         <p>Node</p>
                                         <p>PostgresSQL</p>

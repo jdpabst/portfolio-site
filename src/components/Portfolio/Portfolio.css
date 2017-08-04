@@ -462,6 +462,25 @@ h2{
     opacity: 1;
     text-decoration: underline;
 }
+
+.zodiac{
+    background: url('./../../img/zodiacMobile.png') center no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.zodiac_hover{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+      
+
+
 @media(min-width: 960px){
     /* #projects_holder{
         display:none;
@@ -486,146 +505,11 @@ h2{
         margin-right: 20px;
         border-left: 8px solid #F6F5F5;
     }
+    .todo{
+        margin-right: 20px;
+        border-left: 8px solid #F6F5F5;
+    }
     .slick-list{
         padding: 0 !important;
     }
 }
-
-/*@media(max-width: 350px){
-    #mobile_projects_holder{
-        width: 250px;
-        height: 251px;
-    }
-    .group_proj{
-        width: 250px;
-        height: 251px;
-    }
-    .personal_proj{
-        width: 250px;
-        height: 251px;
-    }
-    .no_server{
-        width: 250px;
-        height: 251px
-    }
-}*/
-
-/*#personal_holder{
-    height: 290px;
-    width: 555px;
-    border: 3px solid white;
-    position: absolute;
-    top: 250px;
-    left: 40px;
-    z-index: 100;
-
-}
-
-.personal_proj_img{
-    position: absolute;
-    left: 14px;
-    top: 286px;
-}
-.personal_proj_img img{
-    height: 212px;
-}
-
-.personal_proj_info{
-    width: 178px;
-    height: 88px;
-    position: absolute;
-    right: 14px;
-    bottom: 139px;
-    text-align: center;
-}
-.personal_proj_info h2{
-    font-family: 'Rock Salt', cursive;
-    font-size: 20px;
-    margin-bottom: 22px;
-}
-.personal_proj_info p{
-    font-family: 'Antic', sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-}
-
-#group_holder{
-    height: 290px;
-    width: 555px;
-    border: 3px solid white;
-    position: absolute;
-    bottom: 210px;
-    right: 40px;
-    z-index: 100;
-
-}
-
-.group_proj_img{
-    position: absolute;
-    right: 240px;
-    top: 520px;
-}
-.group_proj_img img{
-    height: 215px;
-}
-
-.group_proj_info{
-    width: 178px;
-    height: 88px;
-    position: absolute;
-    right: 14px;
-    bottom: 139px;
-    text-align: center;
-}
-.group_proj_info h2{
-    font-family: 'Rock Salt', cursive;
-    font-size: 20px;
-    margin-bottom: 22px;
-}
-.group_proj_info p{
-    font-family: 'Antic', sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-}
-
-#no_server_holder{
-    height: 290px;
-    width: 555px;
-    border: 3px solid white;
-    position: absolute;
-    bottom: 0px;
-    left: 40px;
-    z-index: 100;
-
-}
-
-.no_server_proj_img{
-    position: absolute;
-    left: 14px;
-    top: 752px;
-}
-.no_server_proj_img img{
-    height: 215px;
-}
-
-.no_server_proj_info{
-    width: 178px;
-    height: 88px;
-    position: absolute;
-    right: 14px;
-    bottom: 139px;
-    text-align: center;
-}
-.no_server_proj_info h2{
-    font-family: 'Rock Salt', cursive;
-    font-size: 20px;
-    margin-bottom: 22px;
-}
-.no_server_proj_info p{
-    font-family: 'Antic', sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-}
-
-
-*/
