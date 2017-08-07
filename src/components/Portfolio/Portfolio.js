@@ -170,7 +170,7 @@ export default class SectionOne extends Component{
                                         <p>PostgresSQL</p>
                                     </div>
                                     <div className="todo_hover_links">
-                                        <h1><a href="" target="_blank">Walk-Through</a></h1>
+                                        <h1><a href="https://youtu.be/POCy-wMOrdw" target="_blank">Walk-Through</a></h1>
                                         <h2><a href="http://todo.jdpabst.com/#!/" target="_blank">Live Site</a></h2>
                                     </div>
                                 </div>
